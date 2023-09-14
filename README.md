@@ -1,3 +1,4 @@
+Creator; Mohammad Arabpour, mohammad.arabpour.sinior@gmail.com
 # minimal-epitope-for-maximum-MHC-coverage
 The code  provided is a Python script that processes a CSV file containing MHC (Major Histocompatibility Complex) ranking data for a set of peptides. It performs various operations such as filtering, binary conversion of Kd scores, calculating coverage, and generating output files.
 Using this code you would be able to use a csv file including columnes with 'id' = prptide ID that could be peptide index and or any attribution , 'peptide' = peptide sequence in AA,'peptide_length'= lenght of peptide, 'start'= starting amino acid position in protein,  the rest f columns are the MHC alleles headings for correspondent peptides and kd(nM) score for each peptide.
