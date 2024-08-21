@@ -4,7 +4,7 @@
 
 ## Objective
 
-This software aims to generate a minimal number of peptides that provide maximum MHC and HLA coverage, specifically for use in vaccine and immunotherapy applications targeting T cell epitopes. It takes a protein sequence, peptide length range, and a list of HLA alleles as inputs. The script predicts the binding affinities of peptides to the specified HLA alleles, filters out similar peptides, and selects the ones that cover the widest range of HLA alleles with high affinity. The result is a CSV file listing the selected peptides with their corresponding coverage scores. This tool is adaptable to various MHC affinity prediction methods, such as mhcflurry, NetMHC, and others.
+This software aims to generate a minimal number of peptides that provide maximum MHC and HLA coverage, specifically for use in vaccine and immunotherapy applications targeting T cell epitopes. It takes an affinity file for a  list of HLA alleles against an arraye of peptides that is already generated in affinity prediction models such as mhcflurry, NetMHC, and others as inputs. The script predicts and selects the ones that cover the widest range of HLA alleles with high affinity. The result is a CSV file listing the selected peptides with their corresponding coverage scores an example is showed in the following. This tool is adaptable to various MHC affinity prediction methods, such as mhcflurry, NetMHC, and others.
 
 # minimal-epitope-for-maximum-MHC-coverage
 The code  provided is a Python script that processes a CSV file containing MHC (Major Histocompatibility Complex) ranking data for a set of peptides. It performs various operations such as filtering, binary conversion of Kd scores, calculating coverage, and generating output files.
